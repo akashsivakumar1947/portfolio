@@ -26,7 +26,7 @@ jobs:
       - name: Deploy to Elastic Beanstalk
         uses: einaregilsson/beanstalk-deploy@v21
         with:
-          application_name: prepray
+          application_name: webportfolio
           environment_name: Webportfolio-env-1
           version_label: ${{ github.sha }}
           region: ap-southeast-2
